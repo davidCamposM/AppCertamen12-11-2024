@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        peso = findViewById(R.id.);
+        peso = findViewById(R.id.txtPeso);
         estatura = findViewById(R.id.txtEstatura);
         sp = findViewById(R.id.spinnerrr);
         caja = findViewById(R.id.txtCaja);
