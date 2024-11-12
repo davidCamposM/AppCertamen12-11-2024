@@ -81,13 +81,12 @@
             android:id="@+id/txtImc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Su imc es:" />
+            android:text="Su IMC es:" />
 
         <TextView
             android:id="@+id/txtCaja"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Resultado:" />
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
 
