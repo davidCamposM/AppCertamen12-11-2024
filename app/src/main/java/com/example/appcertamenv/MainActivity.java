@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         String txtPeso = peso.getText().toString();
         String txtEstatura = estatura.getText().toString();
 
-        if (!txtPeso.isEmpty() && !txtEstatura.isEmpty()) {
+        if (!txtPeso.isEmpty() && !txtEstatura.isEmpty() && sp.equals("Seleccione:")) {
             double pesoInt = Double.parseDouble(txtPeso);
             double estaturaInt = Double.parseDouble(txtEstatura);
 
