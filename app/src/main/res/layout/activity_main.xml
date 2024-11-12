@@ -11,8 +11,10 @@
         android:layout_height="671dp"
         android:background="#FFAB91"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="30dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/textView"
@@ -62,6 +64,7 @@
             android:id="@+id/btnCalcular"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="obtenerImc"
             android:text="Calcular IMC" />
 
         <TextView
@@ -74,13 +77,17 @@
             android:textSize="14sp"
             android:textStyle="bold" />
 
-        <EditText
+        <TextView
             android:id="@+id/txtImc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Ingrese"
-            android:inputType="textPersonName" />
+            android:text="Su imc es:" />
+
+        <TextView
+            android:id="@+id/txtCaja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resultado:" />
 
     </LinearLayout>
 
